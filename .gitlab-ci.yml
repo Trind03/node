@@ -1,0 +1,11 @@
+variables:
+    message: "Hello, WOrld!"
+
+stages:
+    init
+
+
+Initialization:
+    stage: init
+    script:
+     - echo $message
